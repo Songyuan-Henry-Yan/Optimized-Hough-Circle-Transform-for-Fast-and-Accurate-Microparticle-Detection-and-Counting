@@ -1,5 +1,7 @@
 # Optimized Hough Circle Transform for Fast and Accurate Microparticle Detection and Counting
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20563945.svg)](https://doi.org/10.5281/zenodo.20563945)
+
 This repository contains Python scripts and example workflows for optimized Hough Circle Transform (HCT)-based microparticle detection and counting in microfluidic image sequences. The workflow was developed to reduce detection error and improve counting consistency for bead images, including 3 µm and 5 µm microparticles.
 
 The repository includes graphical user interface (GUI) tools for visually testing HCT parameters and optimizer scripts for selecting HCT parameter sets based on manually counted training images.
@@ -305,14 +307,12 @@ A typical use case is:
 
 ## Citation
 
-If you use this repository, please cite the associated manuscript and archived software release.
+If you use this repository, please cite the associated manuscript and archived software release:
 
-```text
-Optimized Hough Circle Transform for Fast and Accurate Microparticle Detection and Counting.
-GitHub repository and Zenodo software archive.
-```
-
-A version-specific Zenodo DOI should be cited after the GitHub release is archived on Zenodo.
+Songyuan Henry Yan, Trevor Gerdes, Harbour Li， Timothy Morse， and Lawrence Kulinsky.  
+*Optimized Hough Circle Transform for Automated Microparticle Counting in Microfluidic Platforms*.  
+Zenodo. Version v3.0.  
+DOI: https://doi.org/10.5281/zenodo.20563945
 
 ## License
 
